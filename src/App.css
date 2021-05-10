@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+#logo img {
+  margin: 0%;
+  height: 25px;
+  width: auto;
+}
+.navbar-expand {
+  background: #3b5441;
+}
+
+.banner {
+  position: relative;
+  right: 0%;
+  height: 60vh;
+  margin: 0%;
+}
+
+.banner img {
+  height: 80vh;
+  width: 100%;
+}
+.banner-text {
+  position: absolute;
+  display: grid;
+  top: 30vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.forminp {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.footerh {
+  background: linear-gradient(to right, rgb(120, 255, 214), rgb(168, 255, 120));
+}
+.carousel {
+  margin-top: 150px;
+  position: relative;
+}
+.carousel img {
+  height: 500px;
+  width: 200px;
+}
+.login-container {
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+  border: solid black 2px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));
+}
+.login-button {
+  height: 40px;
+  display: grid;
+  justify-content: center;
+  margin-left: 3rem;
+  text-align: center;
+}
+.login-img img {
+  height: 400px;
+  opacity: 0.5;
+}
+.login-img {
+  border: solid black 2px;
+  width: 50%;
+  display: flex;
+}
+body {
+  background-color: #3b5441;
+}
